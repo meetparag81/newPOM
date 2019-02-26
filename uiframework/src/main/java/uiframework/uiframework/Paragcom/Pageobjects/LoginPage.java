@@ -34,12 +34,27 @@ public class LoginPage {
 		act = new ActionsHelper(driver);
 	}
 	
-	
-	public HomePage EnterValidLoginnameandpassword(String username, String password)
+	public  void EnterUsername(String name)
 	{
-		this.username.sendKeys(username);
-		this.password.sendKeys(password);
+		username.sendKeys(name);
+	}
+	
+	public void Enterpassword(String pass)
+	{
+		password.sendKeys(pass);
+	}
+	public void ClickOnSignIn()
+	{
 		act.MovetoElement(signin).click();
+	}
+	
+	
+	public HomePage LogintoAopplication (String username, String password)
+	{
+		EnterUsername(username);
+		Enterpassword(password);
+		
+		
 		return new HomePage(driver);
 		
 		
