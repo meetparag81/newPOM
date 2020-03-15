@@ -13,7 +13,7 @@ public class Test2 extends TestBase
 
 	 Test2() 
 	 {
-		super(driver);
+		super();
 		
 	}
 

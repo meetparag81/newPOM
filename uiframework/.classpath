@@ -26,6 +26,6 @@
 	<classpathentry kind="lib" path="D:/Softwares/software copies/seleniumwebdrive/client-combined-3.5.2-nodeps.jar"/>
 	<classpathentry kind="lib" path="D:/Softwares/software copies/Java eclips and others from parag/eclipse/plugins/org.testng_6.14.3.r201802240500.jar" sourcepath="D:/Softwares/software copies/Java eclips and others from parag/eclipse/plugins/org.testng.source_6.14.3.r201802240500.jar"/>
 	<classpathentry kind="lib" path="G:/Javaprogramming/Selenium/Selenium Setup/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.pom.lastUpdated"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

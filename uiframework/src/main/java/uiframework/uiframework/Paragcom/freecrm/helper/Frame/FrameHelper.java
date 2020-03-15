@@ -1,6 +1,7 @@
 package uiframework.uiframework.Paragcom.freecrm.helper.Frame;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -15,6 +16,16 @@ public class FrameHelper
 	FrameHelper(WebDriver driver)
 	{
 		this.driver = driver;
+	}
+	/**
+	 * this method will identify no of frames
+	 */
+	
+	public int NoofFrames()
+	{
+		int size=driver.findElements(By.xpath("//iframe")).size();
+		return size; 
+		
 	}
 	
 	/**
